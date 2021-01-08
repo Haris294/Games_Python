@@ -31,7 +31,6 @@ def get_min_word_length():
             print('{0} is not an integer between 4 and 16'.format(
                 min_word_length))
 
-
 def get_display_word(word, idxs):
     """Get the word suitable for display."""
     if len(word) != len(idxs):
