@@ -39,7 +39,6 @@ def get_display_word(word, idxs):
         [letter if idxs[i] else '*' for i, letter in enumerate(word)])
     return displayed_word.strip()
 
-
 def get_next_letter(remaining_letters):
     """Get the user-inputted next letter."""
     if len(remaining_letters) == 0:
