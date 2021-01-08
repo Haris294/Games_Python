@@ -16,7 +16,6 @@ def get_num_attempts():
             print('{0} is not an integer between 1 and 25'.format(
                 num_attempts))
 
-
 def get_min_word_length():
     """Get user-inputted minimum word length for the game."""
     while True:
