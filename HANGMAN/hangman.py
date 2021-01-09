@@ -120,7 +120,6 @@ def play_hangman():
     try_again = input('Would you like to try again? [y/Y] ')
     return try_again.lower() == 'y'
 
-
 if __name__ == '__main__':
     while play_hangman():
         print()
