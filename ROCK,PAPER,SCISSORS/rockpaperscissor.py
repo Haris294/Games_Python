@@ -1,5 +1,4 @@
 import random
-
 com_score = 0
 usr_score = 0
 
